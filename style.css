@@ -365,7 +365,7 @@ nav{
   display: inline-block;
   position: relative;
   left: 35%;
-  
+
 }
 
 li{
@@ -383,7 +383,7 @@ li{
   position: relative;
   top: 5%;
   height: auto;
-  
+
   max-width: 240px;
   max-height: 36px;
 }
@@ -394,7 +394,7 @@ li{
   padding-right: 5%;
   width: 90%;
   margin-top: 5%;
-  
+
 }
 
 .banner{
@@ -446,7 +446,7 @@ li{
   display: grid;
   grid-template-rows: 50% 1fr;
   grid-template-columns: repeat(3, 33.3%);
-  
+
 }
 
 .image{
@@ -488,7 +488,6 @@ li{
 }
 
 .sitationI{
-  padding-right: 10px;
   font-weight: 400;
   text-align: center;
   font-size: 26px;
@@ -496,6 +495,7 @@ li{
 }
 
 .sitation2{
+  margin-right: 10%;
   text-align: center;
   font-size: 17px;
   font-weight: 400;
@@ -503,6 +503,7 @@ li{
 }
 
 .image1{
+  padding-left: 15%;
   margin: auto;
   width: auto;
   height: auto;
@@ -524,5 +525,11 @@ li{
   }
   .nav{
     display: none;
+  }
+}
+
+@media (max-width: 1174px){
+  .image1{
+    padding-left: 0%;
   }
 }
